@@ -1,5 +1,7 @@
 require 'stripe'
 require 'bluecloth'
+require_relative '../../app/helpers/koudoku/application_helper'
+
 module Koudoku
   class Engine < ::Rails::Engine
     isolate_namespace Koudoku
